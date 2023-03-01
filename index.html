@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+	<link rel="stylesheet" href="src/styles.css">
+  </head>
+
+  <body>
+    <div id="calculator">
+		<div class="cal-screen" id="display"></div>
+      <div class="row">
+        <div class="button-wrapper"><button class="button" onclick="addNumber(7)">7</button></div>
+        <div class="button-wrapper"><button class="button" onclick="addNumber(8)">8</button></div>
+        <div class="button-wrapper"><button class="button" onclick="addNumber(9)">9</button></div>
+        <div class="button-wrapper"><button class="button" onclick="deleteNumber()">DEL</button></div>
+      </div>
+      <div class="row">
+        <div class="button-wrapper"><button class="button" onclick="addNumber(4)">4</button></div>
+        <div class="button-wrapper"><button class="button" onclick="addNumber(5)">5</button></div>
+        <div class="button-wrapper"><button class="button" onclick="addNumber(6)">6</button></div>
+        <div class="button-wrapper"><button class="button" onclick="add()">+</button></div>
+      </div>
+      <div class="row">
+        <div class="button-wrapper"><button class="button" onclick="addNumber(1)">1</button></div>
+        <div class="button-wrapper"><button class="button" onclick="addNumber(2)">2</button></div>
+        <div class="button-wrapper"><button class="button" onclick="addNumber(3)">3</button></div>
+        <div class="button-wrapper"><button class="button" onclick="minus()">-</button></div>
+      </div>
+      <div class="row">
+        <div class="button-wrapper"><button class="button" onclick="addNumber(0)">0</button></div>
+        <div class="button-wrapper"><button class="button" onclick="decimal()">.</button></div>
+        <div class="button-wrapper"><button class="button" onclick="divide()">/</button></div>
+        <div class="button-wrapper"><button class="button" onclick="multiply()">x</button></div>
+      </div>
+      <div class="row row-right">
+        <div class="button-wrapper"><button class="button button-right" onclick="clear()">C</button></div>
+        <div class="button-wrapper"><button class="button button-right" onclick="equal()">=</button></div>
+      </div>
+    </div>
+
+    <script src="src/index.js"></script>
+  </body>
+</html>
