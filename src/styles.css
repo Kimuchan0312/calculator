@@ -62,3 +62,20 @@ body {
   background-color: #923532;
   color: #fff;
 }
+
+/* Responsive design for smaller screens */
+@media (max-width: 480px) {
+  #calculator {
+    max-width: 100%;
+  }
+
+  .button {
+    font-size: 1rem;
+    padding: 10px;
+  }
+
+  .cal-screen {
+    font-size: 1.2rem;
+    height: 40px;
+  }
+}

@@ -21,3 +21,8 @@ trang thai 2 - stage => mau xanh
 ```
 git pull origin main
 ```
+
+
+## Markdown Syntax
+
+https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
